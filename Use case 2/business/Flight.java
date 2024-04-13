@@ -1,7 +1,7 @@
 package business;
 
 
-/**
+/*
  * The Flight class represents a flight in the system.
  */
 public class Flight {

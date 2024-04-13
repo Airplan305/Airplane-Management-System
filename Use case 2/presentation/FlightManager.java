@@ -2,7 +2,7 @@ package presentation;
 import business.Flight;
 import data.FlightDAO;
 
-/**
+/*
  * Ahmed A.hussain Ali 202004419 sec 1
  * The FlightManager class handles the business logic related to flights.
  * This includes operations such as searching, scheduling, and cancelling flights.

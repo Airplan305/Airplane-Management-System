@@ -2,7 +2,7 @@ package data;
 
 import business.Flight;
 
-/**
+/*
  * Ahmed A.hussain Ali 202004419 sec 1
  * The FlightDAO class handles the data access operations related to flights.
  */
