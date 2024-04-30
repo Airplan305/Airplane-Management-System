@@ -23,12 +23,12 @@ public class User {
      * @param address the address of the user.
      * @param contactNumber the contact number of the user.
      */
-    public User(String username, String password, String email, String address, String contactNUmber) {
+    public User(String username, String password, String email, String address, String contactNumber) {
         this.username = username;
         this.password = password;
         this.email = email;
         this.address = address;
-        this.contactNumber = contactNUmber;
+        this.contactNumber = contactNumber;
     }
 
     // Getter and Setter methods for the instance variables
