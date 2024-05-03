@@ -5,16 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01a4ca7f-2eb6-4d12-a19f-8b51bc41dc0a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/UseCase1And4/business/PaymentTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/UseCase1And4/business/UserTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/UseCase1And4/data/PaymentDAOTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/UseCase1And4/data/UserDAOTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/UseCase1And4/presentation/PaymentManagerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/UseCase1And4/presentation/UserManagerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/UseCase1And4/business/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UseCase1And4/business/Payment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/UseCase1And4/data/PaymentDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UseCase1And4/data/PaymentDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/UseCase1And4/data/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UseCase1And4/data/UserDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/UseCase1And4/presentation/PaymentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UseCase1And4/presentation/PaymentManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/UseCase3/business/ReservationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/UseCase3/data/ReservationDAOTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/UseCase3/presentation/CustomerSupportTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/UseCase3/presentation/ReservationManagerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,103 +26,93 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "202008997"
-  }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Airplan305/Airplane-Management-System.git",
-    "accountId": "96c72e49-1f39-44ca-92fd-c9c1c01f89f0"
-  }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 1
-}]]></component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2fp5M3gjEUsjP7R6sqr1i74qIyZ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.PaymentDAOTest.testPaymentDAO.executor": "Run",
-    "JUnit.PaymentManagerTest.testPaymentManager.executor": "Run",
-    "JUnit.PaymentTest.testPayment.executor": "Run",
-    "JUnit.UserDAOTest.testUserDAO.executor": "Run",
-    "JUnit.UserManagerTest.testUserManager.executor": "Run",
-    "JUnit.UserTest.testUser.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="UseCase3.presentation" />
+      <recent name="UseCase3.data" />
+      <recent name="UseCase3.business" />
       <recent name="UseCase1And4.presentation" />
       <recent name="UseCase1And4.data" />
-      <recent name="UseCase1And4.business" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserManagerTest.testUserManager">
-    <configuration name="PaymentDAOTest.testPaymentDAO" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AirlineManagementSystem" />
+  <component name="RunManager" selected="JUnit.ReservationTest">
+    <configuration name="CustomerSupportTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Airplane-Management-System" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="UseCase1And4.data.*" />
+          <option name="PATTERN" value="UseCase3.presentation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="UseCase1And4.data" />
-      <option name="MAIN_CLASS_NAME" value="UseCase1And4.data.PaymentDAOTest" />
-      <option name="METHOD_NAME" value="testPaymentDAO" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="UseCase3.presentation" />
+      <option name="MAIN_CLASS_NAME" value="UseCase3.presentation.CustomerSupportTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PaymentManagerTest.testPaymentManager" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AirlineManagementSystem" />
+    <configuration name="ReservationDAOTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Airplane-Management-System" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="UseCase1And4.presentation.*" />
+          <option name="PATTERN" value="UseCase3.data.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="UseCase1And4.presentation" />
-      <option name="MAIN_CLASS_NAME" value="UseCase1And4.presentation.PaymentManagerTest" />
-      <option name="METHOD_NAME" value="testPaymentManager" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="UseCase3.data" />
+      <option name="MAIN_CLASS_NAME" value="UseCase3.data.ReservationDAOTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserDAOTest.testUserDAO" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AirlineManagementSystem" />
+    <configuration name="ReservationManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Airplane-Management-System" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="UseCase1And4.data.*" />
+          <option name="PATTERN" value="UseCase3.presentation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="UseCase1And4.data" />
-      <option name="MAIN_CLASS_NAME" value="UseCase1And4.data.UserDAOTest" />
-      <option name="METHOD_NAME" value="testUserDAO" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="UseCase3.presentation" />
+      <option name="MAIN_CLASS_NAME" value="UseCase3.presentation.ReservationManagerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReservationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Airplane-Management-System" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="UseCase3.business.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="UseCase3.business" />
+      <option name="MAIN_CLASS_NAME" value="UseCase3.business.ReservationTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -148,29 +133,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserTest.testUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AirlineManagementSystem" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="UseCase1And4.business.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="UseCase1And4.business" />
-      <option name="MAIN_CLASS_NAME" value="UseCase1And4.business.UserTest" />
-      <option name="METHOD_NAME" value="testUser" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ReservationTest" />
+        <item itemvalue="JUnit.ReservationDAOTest" />
+        <item itemvalue="JUnit.CustomerSupportTest" />
+        <item itemvalue="JUnit.ReservationManagerTest" />
         <item itemvalue="JUnit.UserManagerTest.testUserManager" />
-        <item itemvalue="JUnit.PaymentManagerTest.testPaymentManager" />
-        <item itemvalue="JUnit.UserDAOTest.testUserDAO" />
-        <item itemvalue="JUnit.PaymentDAOTest.testPaymentDAO" />
-        <item itemvalue="JUnit.UserTest.testUser" />
       </list>
     </recent_temporary>
   </component>
@@ -196,6 +165,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
