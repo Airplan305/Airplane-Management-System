@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01a4ca7f-2eb6-4d12-a19f-8b51bc41dc0a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/UseCase3/business/ReservationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/UseCase3/data/ReservationDAOTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/UseCase3/presentation/CustomerSupportTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/UseCase3/presentation/ReservationManagerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,21 +26,36 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.2\plugins\maven\lib\maven3" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
   <component name="ProjectId" id="2fp5M3gjEUsjP7R6sqr1i74qIyZ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.FlightDAOTest.executor": "Run",
+    "JUnit.FlightManagerTest.executor": "Run",
+    "JUnit.FlightTest.executor": "Run",
+    "JUnit.PaymentTest.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/adnan/Desktop/IDDDDDDea/Airplane-Management-System",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -56,47 +68,62 @@
       <recent name="UseCase1And4.data" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ReservationTest">
-    <configuration name="CustomerSupportTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Airplane-Management-System" />
+  <component name="RunManager" selected="JUnit.FlightManagerTest">
+    <configuration name="FlightDAOTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AirlineManagementSystem" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="UseCase3.presentation.*" />
+          <option name="PATTERN" value="UseCase2.Data.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="UseCase3.presentation" />
-      <option name="MAIN_CLASS_NAME" value="UseCase3.presentation.CustomerSupportTest" />
+      <option name="PACKAGE_NAME" value="UseCase2.Data" />
+      <option name="MAIN_CLASS_NAME" value="UseCase2.Data.FlightDAOTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReservationDAOTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Airplane-Management-System" />
+    <configuration name="FlightManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AirlineManagementSystem" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="UseCase3.data.*" />
+          <option name="PATTERN" value="UseCase2.Presentation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="UseCase3.data" />
-      <option name="MAIN_CLASS_NAME" value="UseCase3.data.ReservationDAOTest" />
+      <option name="PACKAGE_NAME" value="UseCase2.Presentation" />
+      <option name="MAIN_CLASS_NAME" value="UseCase2.Presentation.FlightManagerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReservationManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Airplane-Management-System" />
+    <configuration name="FlightTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AirlineManagementSystem" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="UseCase3.presentation.*" />
+          <option name="PATTERN" value="UseCase2.Business.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="UseCase3.presentation" />
-      <option name="MAIN_CLASS_NAME" value="UseCase3.presentation.ReservationManagerTest" />
+      <option name="PACKAGE_NAME" value="UseCase2.Business" />
+      <option name="MAIN_CLASS_NAME" value="UseCase2.Business.FlightTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AirlineManagementSystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="UseCase1And4.business.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="UseCase1And4.business" />
+      <option name="MAIN_CLASS_NAME" value="UseCase1And4.business.PaymentTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -117,37 +144,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserManagerTest.testUserManager" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AirlineManagementSystem" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="UseCase1And4.presentation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="UseCase1And4.presentation" />
-      <option name="MAIN_CLASS_NAME" value="UseCase1And4.presentation.UserManagerTest" />
-      <option name="METHOD_NAME" value="testUserManager" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FlightManagerTest" />
+        <item itemvalue="JUnit.FlightDAOTest" />
+        <item itemvalue="JUnit.FlightTest" />
+        <item itemvalue="JUnit.PaymentTest" />
         <item itemvalue="JUnit.ReservationTest" />
-        <item itemvalue="JUnit.ReservationDAOTest" />
-        <item itemvalue="JUnit.CustomerSupportTest" />
-        <item itemvalue="JUnit.ReservationManagerTest" />
-        <item itemvalue="JUnit.UserManagerTest.testUserManager" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
-        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.15989.150" />
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-IU-241.15989.150" />
       </set>
     </attachedChunks>
   </component>
@@ -160,6 +171,7 @@
       <option name="presentableId" value="Default" />
       <updated>1714485129755</updated>
       <workItem from="1714485131346" duration="8372000" />
+      <workItem from="1714847909087" duration="95000" />
     </task>
     <servers />
   </component>
