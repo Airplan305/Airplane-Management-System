@@ -2,7 +2,7 @@
 
 ## Adnan suggests to Qassim
 
-1. Add a method that rests the password for the user `resetPassword(String newPassword)`
+1. Add a method that resets the password for the user `resetPassword(String newPassword)`
 2. Add a method that updates the reservation with new flight and user details `updateReservation(String reservationId, Flight newFlight, User newUser)`
 
 ## Qassim suggests to Adnan
