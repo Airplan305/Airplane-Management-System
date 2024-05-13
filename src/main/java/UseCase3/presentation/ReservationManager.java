@@ -37,6 +37,15 @@ public class ReservationManager {
     }
 
     /**
+    * Adnan suggests to add a method that updates a reservation with new flight and user details.
+    * @param reservationId The ID of the reservation to update.
+    * @param newFlight The new flight details.
+    * @param newUser The new user details.
+    * @return true if the update is successful, false otherwise.
+    * updateReservation(String reservationId, Flight newFlight, User newUser)
+    */
+
+    /**
      * Cancels a reservation.
      * @param reservationId the ID of the reservation to cancel.
      * @return true if the cancellation is successful, false otherwise.
