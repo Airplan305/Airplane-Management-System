@@ -2,8 +2,8 @@
 
 ## Adnan suggests to Qassim
 
-1. Add a method that gets the flight information with the flightNumber as parameter `getFlightInfo(String flightNumber)`
-2. Add a method that checks if the flight is cancelled or not that returns a boolean `isFlightCanceled(String flightNumber)`. True if canceled false if not canceled
+1. Add a method that rests the password for the user `resetPassword(String newPassword)`
+2. Add a method that updates the reservation with new flight and user details `updateReservation(String reservationId, Flight newFlight, User newUser)`
 
 ## Qassim suggests to Adnan
 
