@@ -70,6 +70,12 @@ public class CustomerSupport {
     }
 
     /**
+    * Adnan suggests you to add a reset password for the user. 
+    * @param newPassword The new password for the user.
+    * resetPassword(String newPassword)
+    */
+
+    /**
      * Finding customer information .
      * @return the information .
      */
