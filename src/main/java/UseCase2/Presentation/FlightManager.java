@@ -42,6 +42,13 @@ public class FlightManager {
     }
 
     /**
+    * Adnan suggets to add a method that checks if flight time is valid or not.
+    * @param flight number of a particular flight.
+    * isValidFlightTime(String flightNumber)
+    *
+    */
+
+    /**
      * Cancels a flight.
      * @param flightNumber the flight number of the flight to cancel.
      * @return true if the cancellation is successful, false otherwise.
