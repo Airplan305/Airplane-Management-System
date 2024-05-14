@@ -52,4 +52,25 @@ public class PaymentManager {
             throw new RuntimeException("Payment not found");
         }
     }
+
+    /**
+    * Added request from Qassim
+    * Cancels a payment.
+    * @param paymentId the ID of the payment to cancel.
+    */
+public Payment cancelPayment(String paymentId) {
+    Payment payment = paymentDAO.getPayment(paymentId);
+    if (payment != null && !payment.getRefunded()) {
+        payment.setAmount(0);
+        boolean success = paymentDAO.savePayment(payment);
+        if (success) {
+            return payment;
+        } else {
+            throw new RuntimeException("Failed to cancel payment");
+        }
+    } else {
+        throw new RuntimeException("Payment not found or already refunded");
+    }
+}
+
 }

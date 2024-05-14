@@ -1,6 +1,8 @@
 package UseCase1And4.business;
 
-public class User {
+import java.util.regex.Pattern;
+
+public class User  {
 
     /*
      * Adnan Mohammed 202008997 Sec 1
@@ -61,6 +63,28 @@ public class User {
     }
     public String getUsername() {
         return username;
+    }
+
+        /**
+     * Verifies the user's phone number.
+     * @return true if the phone number is valid, false otherwise.
+     */
+    public boolean verifyPhoneNumber() {
+        // This is a very basic check and might not be suitable for all international phone numbers.
+        // You might want to use a library like libphonenumber from Google for a more comprehensive validation.
+        String regex = "^\\+?[0-9. ()-]{10,25}$";
+        Pattern pattern = Pattern.compile(regex);
+        return pattern.matcher(this.contactNumber).matches();
+    }
+
+    /**
+     * Verifies the user's email address.
+     * @return true if the email address is valid, false otherwise.
+     */
+    public boolean verifyEmailAddress() {
+        String regex = "^[A-Za-z0-9+_.-]+@(.+)$";
+        Pattern pattern = Pattern.compile(regex);
+        return pattern.matcher(this.email).matches();
     }
 
 
